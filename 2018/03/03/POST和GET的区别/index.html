@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="get是获取数据，post是新增数据，post可以传输大量数据。 一：post可以再请求体里面传数据，get不可以。post有请求体，请求体里面常见的集中格式： 1：application/x-www-form-urlencoded 2：multipart/form-data 3：text/plain 4：application/json 二：get 的话会在浏览器的 url 上看到，post 的">
+<meta name="description" content="请阅读全文">
 <meta name="keywords" content="原创">
 <meta property="og:type" content="article">
 <meta property="og:title" content="get和post的区别">
 <meta property="og:url" content="http://yoursite.com/2018/03/03/POST和GET的区别/index.html">
 <meta property="og:site_name" content="胖韩">
-<meta property="og:description" content="get是获取数据，post是新增数据，post可以传输大量数据。 一：post可以再请求体里面传数据，get不可以。post有请求体，请求体里面常见的集中格式： 1：application/x-www-form-urlencoded 2：multipart/form-data 3：text/plain 4：application/json 二：get 的话会在浏览器的 url 上看到，post 的">
+<meta property="og:description" content="请阅读全文">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-12T03:43:28.351Z">
+<meta property="og:updated_time" content="2019-03-12T05:54:46.173Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="get和post的区别">
-<meta name="twitter:description" content="get是获取数据，post是新增数据，post可以传输大量数据。 一：post可以再请求体里面传数据，get不可以。post有请求体，请求体里面常见的集中格式： 1：application/x-www-form-urlencoded 2：multipart/form-data 3：text/plain 4：application/json 二：get 的话会在浏览器的 url 上看到，post 的">
+<meta name="twitter:description" content="请阅读全文">
 
 
 
@@ -100,7 +100,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -188,6 +188,26 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
           </a>
         </li>
       
@@ -284,6 +304,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/web前端/" itemprop="url" rel="index">
+                    <span itemprop="name">web前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -296,6 +338,10 @@
 
           
 
+          
+              <div class="post-description">
+                  请阅读全文
+              </div>
           
 
         </div>
@@ -436,12 +482,21 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index-1.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
+                <a href="/tags/index-1.html">
                   <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
@@ -495,6 +550,13 @@
 
       
 
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -557,11 +619,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
